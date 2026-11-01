@@ -3,4 +3,9 @@ project(my_learning_notes)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(my_learning_notes dangling_pointer.cpp)
+add_executable(my_learning_notes dangling_pointer.cpp
+        wild_pointer.cpp)
+
+
+
+add_executable(wild_pointer wild_pointer.cpp)
